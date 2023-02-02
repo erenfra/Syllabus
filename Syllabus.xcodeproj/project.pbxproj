@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2487F29E2988C9DE001090DB /* SyllabusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F29D2988C9DE001090DB /* SyllabusApp.swift */; };
-		2487F2A02988C9DE001090DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F29F2988C9DE001090DB /* ContentView.swift */; };
+		2487F2A02988C9DE001090DB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F29F2988C9DE001090DB /* MainView.swift */; };
 		2487F2A22988C9ED001090DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2487F2A12988C9ED001090DB /* Assets.xcassets */; };
 		2487F2A62988C9ED001090DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2487F2A52988C9ED001090DB /* Preview Assets.xcassets */; };
+		2487F2AF2988CAD3001090DB /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2AE2988CAD3001090DB /* CapsuleButton.swift */; };
+		2487F2B12988CAFA001090DB /* Elementary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2B02988CAFA001090DB /* Elementary.swift */; };
+		2487F2B32988CB4E001090DB /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2B22988CB4E001090DB /* LevelView.swift */; };
+		2487F2B52988CB93001090DB /* Intermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2B42988CB93001090DB /* Intermediate.swift */; };
+		2487F2B72988CBBC001090DB /* Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2B62988CBBC001090DB /* Advanced.swift */; };
+		2487F2B92988CBE0001090DB /* Diploma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2B82988CBE0001090DB /* Diploma.swift */; };
+		2487F2BB2988CC09001090DB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2487F2BA2988CC09001090DB /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2487F29A2988C9DE001090DB /* Syllabus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syllabus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2487F29D2988C9DE001090DB /* SyllabusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusApp.swift; sourceTree = "<group>"; };
-		2487F29F2988C9DE001090DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2487F29F2988C9DE001090DB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2487F2A12988C9ED001090DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2487F2A32988C9ED001090DB /* Syllabus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Syllabus.entitlements; sourceTree = "<group>"; };
 		2487F2A52988C9ED001090DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2487F2AE2988CAD3001090DB /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		2487F2B02988CAFA001090DB /* Elementary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elementary.swift; sourceTree = "<group>"; };
+		2487F2B22988CB4E001090DB /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		2487F2B42988CB93001090DB /* Intermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intermediate.swift; sourceTree = "<group>"; };
+		2487F2B62988CBBC001090DB /* Advanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced.swift; sourceTree = "<group>"; };
+		2487F2B82988CBE0001090DB /* Diploma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diploma.swift; sourceTree = "<group>"; };
+		2487F2BA2988CC09001090DB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				2487F29D2988C9DE001090DB /* SyllabusApp.swift */,
-				2487F29F2988C9DE001090DB /* ContentView.swift */,
+				2487F2AC2988CA60001090DB /* Components */,
+				2487F2AD2988CA70001090DB /* Views */,
 				2487F2A12988C9ED001090DB /* Assets.xcassets */,
 				2487F2A32988C9ED001090DB /* Syllabus.entitlements */,
 				2487F2A42988C9ED001090DB /* Preview Content */,
@@ -67,6 +82,28 @@
 				2487F2A52988C9ED001090DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2487F2AC2988CA60001090DB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2487F2AE2988CAD3001090DB /* CapsuleButton.swift */,
+				2487F2B02988CAFA001090DB /* Elementary.swift */,
+				2487F2B42988CB93001090DB /* Intermediate.swift */,
+				2487F2B62988CBBC001090DB /* Advanced.swift */,
+				2487F2B82988CBE0001090DB /* Diploma.swift */,
+				2487F2BA2988CC09001090DB /* Header.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2487F2AD2988CA70001090DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2487F29F2988C9DE001090DB /* MainView.swift */,
+				2487F2B22988CB4E001090DB /* LevelView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2487F2A02988C9DE001090DB /* ContentView.swift in Sources */,
+				2487F2B52988CB93001090DB /* Intermediate.swift in Sources */,
+				2487F2BB2988CC09001090DB /* Header.swift in Sources */,
+				2487F2A02988C9DE001090DB /* MainView.swift in Sources */,
+				2487F2B12988CAFA001090DB /* Elementary.swift in Sources */,
+				2487F2B72988CBBC001090DB /* Advanced.swift in Sources */,
+				2487F2AF2988CAD3001090DB /* CapsuleButton.swift in Sources */,
 				2487F29E2988C9DE001090DB /* SyllabusApp.swift in Sources */,
+				2487F2B92988CBE0001090DB /* Diploma.swift in Sources */,
+				2487F2B32988CB4E001090DB /* LevelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +313,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Syllabus;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -277,9 +322,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -287,7 +332,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fraga.renato.Syllabus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,6 +354,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Syllabus;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,9 +363,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -325,7 +373,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fraga.renato.Syllabus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
